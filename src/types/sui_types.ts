@@ -1,4 +1,4 @@
 export type SuiSessionStore = {
-	userSalt?: string;
+	nonce?: string;
 	maxEpoch?: string;
 };
